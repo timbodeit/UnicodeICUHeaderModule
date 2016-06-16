@@ -1,0 +1,8 @@
+framework module unicode {
+    umbrella header "UnicodeICUHeaderModule-umbrella.h"
+    link "icucore"
+
+    export *
+    module * { export * }
+}
+
